@@ -32,16 +32,16 @@ var err error  //error value
 var done bool  //bool, has been done?
 
 // use mixedCase a.k.a camelCase instead of snake_case (variables and  functions)
-var maxValue = 100  // recommended (camelCase)
-var max_value = 100 // not recommended (snake_case)
+var maxValue = 100 // recommended (camelCase)
+// var max_value = 100 // not recommended (snake_case)
 
 // recommended
 func writeToFile() {
 }
 
 // not recommended
-func write_to_file() {
-}
+// func write_to_file() {
+// }
 
 // write acronyms in all caps
 var writeToDB = true // recommended
